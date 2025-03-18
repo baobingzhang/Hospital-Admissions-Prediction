@@ -52,6 +52,3 @@ The dataset used in this project is not included in this repository. If you need
 Install required packages using:
 ```bash
 pip install -r requirements.txt
-
-
-
