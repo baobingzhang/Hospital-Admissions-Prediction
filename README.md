@@ -53,12 +53,5 @@ Install required packages using:
 ```bash
 pip install -r requirements.txt
 
-Running the Code
-To run the Python script:
-
-```bash
-python BNN_data_analysis.py
-
-To run the Jupyter Notebook, open it and run the cells sequentially.
 
 
