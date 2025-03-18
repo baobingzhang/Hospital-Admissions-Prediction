@@ -52,3 +52,21 @@ The dataset used in this project is not included in this repository. If you need
 Install required packages using:
 ```bash
 pip install -r requirements.txt
+```
+
+### Running the code
+
+To run the Python script:
+```bash
+python BNN_data_analysis.py
+```
+
+### Project Structure
+
+- `BNN_data_analysis.py`: Python script containing the entire process.
+- `BNN_Data_Analysis.ipynb`: Jupyter Notebook version with step-by-step execution.
+- `README.md`: This documentation file.
+- `requirements.txt`: A list of required packages.
+
+*Note:* The dataset file `data.csv` is **not** included in this repository.
+
