@@ -46,6 +46,7 @@ The dataset used in this project is not included in this repository. If you need
 
 ### Requirements
 
+- Ubuntu 24.04
 - Python 3.x
 - pandas, numpy, matplotlib, torch, pyro-ppl, scikit-learn
 
