@@ -40,7 +40,7 @@ The project follows these main steps:
 
 ## Data Availability
 
-The dataset used in this project is not included in this repository. If you need the data, please contact me via email at [your-email@example.com](mailto:your-email@example.com).
+The dataset used in this project is not included in this repository. If you need the data, please contact me via email at [baobinzhang1992@gmail.com](mailto:your-email@example.com).
 
 ## Installation and Usage
 
