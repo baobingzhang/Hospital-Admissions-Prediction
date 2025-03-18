@@ -53,19 +53,4 @@ Install required packages using:
 ```bash
 pip install -r requirements.txt
 
-Running the Code
-To run the Python script:
 
-bash
-复制
-python predict_admissions.py
-To run the Jupyter Notebook, open it and run the cells sequentially.
-
-Project Structure
-predict_admissions.py: Python script for the entire process.
-
-Task_Postdoc.ipynb: Jupyter Notebook version with step-by-step execution.
-
-README.md: This documentation file.
-
-requirements.txt: List of required packages.
