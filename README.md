@@ -54,4 +54,9 @@ Install required packages using:
 pip install -r requirements.txt
 
 
+## Running the Code
+
+To run the Python script:
+```bash
+python predict_admissions.py
 
