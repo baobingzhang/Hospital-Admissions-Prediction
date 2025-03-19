@@ -69,5 +69,5 @@ python BNN_data_analysis.py
 - `README.md`: This documentation file.
 - `requirements.txt`: A list of required packages.
 
-*Note:* The dataset file `data.csv` is private and is **not** included in this repository acquire as needed.
+*Note:* The dataset file `data.csv` is private and is **not** included in this repository and acquire as needed.
 
