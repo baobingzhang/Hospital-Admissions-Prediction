@@ -33,7 +33,7 @@ The project follows these main steps:
    
 6. **Training and Evaluation:**
    - The model is trained using Stochastic Variational Inference (SVI).
-   - Evaluation metrics include RMSE, 95% prediction interval coverage, and prediction accuracy (relative error ≤ 10%).
+   - Evaluation metrics include RMSE, 95% prediction interval coverage.
 
 7. **Visualization:**
    - An error bar plot is generated showing the predicted mean and 95% confidence intervals, compared to the true values.
