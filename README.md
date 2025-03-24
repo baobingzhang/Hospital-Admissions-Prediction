@@ -38,6 +38,16 @@ The project follows these main steps:
 7. **Visualization:**
    - An error bar plot is generated showing the predicted mean and 95% confidence intervals, compared to the true values.
 
+## Bayesian hierarhical models
+
+This project implements a Hierarchical Bayesian Model to predict hospital admissions based on climate conditions. Unlike traditional Bayesian models, the hierarchical approach introduces group-specific intercept adjustments, enabling the sharing of information across different counties (or countries). This structure offers significant benefits, especially when dealing with sparse or unbalanced data:
+
+Information Sharing and Shrinkage: When data for a specific county is limited, its parameter estimates are automatically pulled toward the global trend, enhancing stability.
+
+Model Flexibility: The model not only captures the overall trend but also adjusts for intrinsic differences among regions, resulting in predictions that better reflect real-world variations.
+
+Uncertainty Quantification: With Bayesian methods, the model provides full posterior distributions, comprehensively reflecting the uncertainty of parameters and supporting informed decision-making and risk assessment.
+
 ## Data Availability
 
 The dataset used in this project is not included in this repository. If you need the data, please contact me via email at [baobinzhang1992@gmail.com](mailto:your-email@example.com).
