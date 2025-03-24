@@ -1,7 +1,7 @@
 # Hospital-Admissions-Prediction
 A Bayesian Neural Network for predicting hospital admissions using climate and demographic data
 
-# Predicting Hospital Admissions Using a Bayesian Neural Network
+# Predicting Hospital Admissions Using a Bayesian Neural Network and Bayesian hierarchical models
 
 This project implements a Bayesian Neural Network (BNN) for predicting hospital admissions using climate and demographic data. The model not only provides point predictions but also quantifies uncertainty through predicted confidence intervals.
 
@@ -42,11 +42,14 @@ The project follows these main steps:
 
 This project implements a Hierarchical Bayesian Model to predict hospital admissions based on climate conditions. Unlike traditional Bayesian models, the hierarchical approach introduces group-specific intercept adjustments, enabling the sharing of information across different counties (or countries). This structure offers significant benefits, especially when dealing with sparse or unbalanced data:
 
-Information Sharing and Shrinkage: When data for a specific county is limited, its parameter estimates are automatically pulled toward the global trend, enhancing stability.
+   - Information Sharing and Shrinkage: When data for a specific county is limited, its parameter estimates are automatically pulled 
+     toward the global trend, enhancing stability.
+ 
+   - Model Flexibility: The model not only captures the overall trend but also adjusts for intrinsic differences among regions, 
+     resulting in predictions that better reflect real-world variations.
 
-Model Flexibility: The model not only captures the overall trend but also adjusts for intrinsic differences among regions, resulting in predictions that better reflect real-world variations.
-
-Uncertainty Quantification: With Bayesian methods, the model provides full posterior distributions, comprehensively reflecting the uncertainty of parameters and supporting informed decision-making and risk assessment.
+   - Uncertainty Quantification: With Bayesian methods, the model provides full posterior distributions, comprehensively reflecting the 
+     uncertainty of parameters and supporting informed decision-making and risk assessment.
 
 ## Data Availability
 
@@ -70,6 +73,7 @@ pip install -r requirements.txt
 To run the Python script:
 ```bash
 python BNN_data_analysis.py
+python hierarchical_Bayesian_Model.py
 ```
 
 ### Project Structure
