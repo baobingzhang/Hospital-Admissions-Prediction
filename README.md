@@ -79,6 +79,7 @@ python hierarchical_Bayesian_Model.py
 ### Project Structure
 
 - `BNN_data_analysis.py`: Python script containing the entire process.
+- `hierarchical_Bayesian_Model.py`: Python script containing the entire process.
 - `BNN_Data_Analysis.ipynb`: Jupyter Notebook version with step-by-step execution.
 - `README.md`: This documentation file.
 - `requirements.txt`: A list of required packages.
