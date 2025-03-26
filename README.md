@@ -1,7 +1,7 @@
 # Hospital-Admissions-Prediction
 A Bayesian Neural Network for predicting hospital admissions using climate and demographic data
 
-# Predicting Hospital Admissions Using a Bayesian Neural Network and Bayesian hierarchical model
+# Predicting Hospital Admissions Using a Bayesian Neural Network and Hierarchical Bayesian model
 
 This project implements a Bayesian Neural Network (BNN) for predicting hospital admissions using climate and demographic data. The model not only provides point predictions but also quantifies uncertainty through predicted confidence intervals.
 
